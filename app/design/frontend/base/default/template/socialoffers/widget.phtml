@@ -1,0 +1,18 @@
+<script type="text/javascript" id="sociaby_<?php echo $this->getSociabyId() ?>">
+/* <![CDATA[ */
+<?php echo $this->getSociabyProductsObjectArray() ?>
+
+(function() {
+	function async_load(){
+		var sprod = sociabyProductsObjectArray_<?php echo $this->getSociabyId() ?> || 'na';
+		var s = document.createElement('script'); s.type = 'text/javascript'; var tot = 0; s.async = true;
+		s.src = '//sociaby.com/js/sociaby.js?cb=<?php echo $this->getSociabyId() ?>&foo='+Math.random()*10000000000000000;
+		if (typeof sprod == 'object') { if (sprod.prices.length && sprod.prices) {
+			for (var i = 0; i < sprod.prices.length; i++) {tot = tot + sprod.prices[i];}s.src = s.src + '&amt=' + Math.round(tot*100)/100;}}
+		var x = document.getElementsByTagName('script')[0];
+		x.parentNode.insertBefore(s, x);}
+	if (window.attachEvent) window.attachEvent('onload', async_load);
+	else window.addEventListener('load', async_load, false);
+})();
+/* ]]> */
+</script>

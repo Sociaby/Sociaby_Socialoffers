@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<sociaby translate="label" module="socialoffers">
+            <label>sociaBY</label>
+            <sort_order>0</sort_order>
+        </sociaby>
+	  </tabs>
+	  <sections>
+		<offers  translate="label" module="socialoffers">                    
+		<label>Offers</label>
+		<tab>sociaby</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <general translate="label"> 
+					  <label>General Settings</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <unique_id translate="label">
+                            <label>sociaBY unique ID</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>This is your sociaBY unique ID, NOT your username. To obtain one, please login or register on sociaBY.com.</comment>
+                          </unique_id>
+					   </fields>
+					   </general>
+					</groups>
+		</offers>
+	  </sections>
+</config>

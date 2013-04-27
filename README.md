@@ -25,7 +25,7 @@ Currently, there are three methods to install Sociaby:
 
  2. Install this module using [modman](https://github.com/colinmollenhour/modman)
 
-   * `modman clone git://github.com/colinmollenhour/Cm_Cache_Backend_Redis.git`
+   * `modman clone git://github.com/sociaby/Sociaby_Socialoffers`
    * Make sure you have installed [modman](https://github.com/colinmollenhour/modman) prior to this step.
 
  3. Install manually by:

@@ -37,7 +37,10 @@ casper.then(function() {
     // 8 - does the discount input exist?
     this.echo("Can we see the discount input box?");
     this.test.assertExists('div.discount div.discount-form div.input-box input#coupon_code');
-    // 9 - does the sociaby share button exist? (fails in localhost)
+    // 9 - is the sociaby offers script tag async script present/ does it exist?
+    this.echo("Can we find the sociaby async tag?");
+    this.test.assertExists('script[id^="sociaby_"]');
+    // 10 - does the sociaby share button exist? (fails in localhost)
     // TODO
 })
 

@@ -21,7 +21,9 @@ casper.thenOpen("http://magen.to/sony-vaio-vgn-txn27n-b-11-1-notebook-pc.html", 
 });
 
 casper.then(function() {
-    this.test.click('form#product_addtocart_form  button.button.btn-cart');
+    this.click('form#product_addtocart_form  button.button.btn-cart');
+});
+casper.then(function() {
     // 5 - Can attempt checkout on the product
     this.test.assert(this.getCurrentUrl() === "http://magen.to/checkout/cart/", 'Can attempt checkout on product');
     // 6 - Can add the product successfully to cart

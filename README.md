@@ -25,7 +25,8 @@ Currently, there are three methods to install Sociaby:
 
  2. Install this module using [modman](https://github.com/colinmollenhour/modman)
 
-   * `modman clone git://github.com/sociaby/Sociaby_Socialoffers`
+   * `modman clone git://github.com/sociaby/Sociaby_Socialoffers` **OR**
+   * `modman clone git@bitbucket.org:sociaby/Sociaby_Socialoffers.git`
    * Make sure you have installed [modman](https://github.com/colinmollenhour/modman) prior to this step.
 
  3. Install manually by:

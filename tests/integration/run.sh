@@ -15,7 +15,7 @@ readonly TEST_DIR=/home/electricjesus/projects/magento/magento/
 readonly MYSQL_USR=magento
 readonly MYSQL_PWD=magento
 #readonly MODMAN_MODULE=git@bitbucket.org:electricjesus/Sociaby_Socialoffers.git
-readonly MODMAN_MODULE=localhost:/bare-repos/sociaby
+readonly MODMAN_MODULE=localhost:bare-repos/sociaby
 readonly HEADLESS_TESTER=casperjs  #supported: casperjs, phantomjs. write your test js accordingly.
 WDIR=`pwd`
 

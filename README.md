@@ -20,9 +20,18 @@ Read more about us, [here](http://sociaby.com/about/)!
 Installation
 ------------
 
-Currently, there are three methods to install Sociaby:
+Currently, there are four methods to install Sociaby_Socialoffers:
 
- 1. Install this module via Magento Connect. It should do most of the stuff for you.
+ 1. Install this module via [Magento Connect](www.magentocommerce.com/magento-connect/catalog/product/view/id/15885/). It should do most of the stuff for you. Magento Connect provides you with an Extension Key which you can use with Connect Manager described in Step #2.
+
+ 3. Install via Connect Manager. 
+
+   * *(Skip this step if you have the module's extension key from Magento Connect)* [Download the tarball](https://sociaby.com/wp-content/uploads/2013/01/Sociaby_Magento_plugin-0.1.0.tar.gz) and save it somewhere.
+   * Go to your website's URL with `/downloader` appended to it.
+   * Login with your admin credentials
+   * If you have the extension key: Look for the *Install New Extensions* section. Paste extension key in field provided.
+   * If you have the tarball: Under the **Direct Package Upload** section, upload the tarball file.
+   * Click install. Easy win.
 
  2. Install this module using [modman](https://github.com/colinmollenhour/modman)
 
@@ -30,10 +39,13 @@ Currently, there are three methods to install Sociaby:
    * `modman clone git@bitbucket.org:sociaby/Sociaby_Socialoffers.git`
    * Make sure you have installed [modman](https://github.com/colinmollenhour/modman) prior to this step.
 
- 3. Install manually by:
 
-   * [Downloading the tarball](http://www.google.com) and deflating it inside your Magento installation's root (where you can find index.php).
-   * Via S/FTP by copying the `app/` directory inside the tarball into your Magento installation's root. Don't worry, you will not overwrite anything important.
+ 4. Install manually by:
+
+   * [Downloading the tarball](https://sociaby.com/wp-content/uploads/2013/01/Sociaby_Magento_plugin-0.1.0.tar.gz) and deflating it inside your Magento installation's root (where you can find index.php). 
+   * Via S/FTP by copying the `app/` directory inside the tarball into your Magento installation's root. Don't worry, you will not overwrite anything important. 
+   * Delete / Ignore `package.xml` inside the tarball. It's not important.
+
 
 If you can't seem to get to the pages mentioned in the **Configuration** section, please refer to the **Troubleshooting** section.
 
@@ -51,6 +63,9 @@ Configuration
 Troubleshooting
 ---------------
 
+#### I get "Warning: Your Magento folder does not have sufficient write permissions" in the Magento Connect Manager. Help!
+
+ Go here: http://stackoverflow.com/questions/16097724/warning-your-magento-folder-does-not-have-sufficient-write-permissions
 
 #### Why can't I see the admin page to configure the extension?
 

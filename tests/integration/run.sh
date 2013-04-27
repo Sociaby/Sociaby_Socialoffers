@@ -42,5 +42,5 @@ echo "================================================"
 echo "Now for the good part.. Running the tests!"
 echo "================================================"
 cd $WDIR
-casperjs integration/*.js
+ls integration/*.js | xargs -I{} casperjs test {}
 echo "Done. Please refer to the above PhantomJS/CasperJS report."

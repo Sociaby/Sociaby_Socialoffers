@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "--------------------------------------";
+echo "Running integration tests";
+echo "--------------------------------------";
+/bin/sh ./integration/run.sh
+

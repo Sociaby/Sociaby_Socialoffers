@@ -1,0 +1,13 @@
+<script type="text/javascript" id="sociaby_ct_<?php echo $this->getSociabyId() ?>">
+/* <![CDATA[ */
+(function() {
+    function async_load(){
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//socia.by/js/js/sb.js?cb=<?php echo $this->getSociabyId() ?>&foo='+Math.random()*10000000000000000;
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);}
+    if (window.attachEvent) window.attachEvent('onload', async_load);
+    else window.addEventListener('load', async_load, false);
+})();
+/* ]]> */
+</script>

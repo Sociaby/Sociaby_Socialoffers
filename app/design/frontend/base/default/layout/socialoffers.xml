@@ -5,5 +5,10 @@
 		<block type="socialoffers/offers" name="socialoffers_widget" template="socialoffers/widget.phtml" />   
 	</reference>
   </checkout_cart_index>
+  <default>
+    <reference name="before_body_end">
+        <block type="socialoffers/tracking" name="socialoffers_conversion_tracker" template="socialoffers/conversion.phtml" />   
+    </reference>
+  </default>
 </layout>   
 	

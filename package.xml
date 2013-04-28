@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sociaby_Socialoffers</name>
+    <version>0.1.0</version>
+    <stability>beta</stability>
+    <license uri="http://opensource.org/licenses/OSL-3.0">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Don't just share your content. Reward your most effective evangelists. Keep discount seekers on your site. Symbiotic shopping: More shares, more savings. We all win.</summary>
+    <description>See Seamless Sales&#xD;
+================&#xD;
+&#xD;
+FOR RETAILERS&#xD;
+&#xD;
+It&#x2019;s simple.  You sign on with sociaBY to find your unique ID, use that to configure this module, you give us discount codes.  If your eCommerce software can handle a more complex backend integration then we can talk, but the simplest thing is to just use promo codes.  We (or rather, our aforementioned code snippet) will encourage your users to share their favorite products on their social networks.&#xD;
+&#xD;
+We assign each an anonymous ID (sorry, no names here) and keep tabs on their shopping habits and how often their friends click on those links.  And yes, of course you can see reports on traffic.  But here is where it gets good.  As we approach critical mass, we begin learning who really has responsive friends&#x2026; and we feed them better offers.  The folks who might try to take advantage?  Well, they will eventually see no offer at all.  Brilliant, right?&#xD;
+&#xD;
+Register for the beta : http://sociaby.com/beta/&#xD;
+&#xD;
+FOR SHOPPERS&#xD;
+&#xD;
+For you, it is beyond easy.  When you see the button on the checkout page, click it!  You&#x2019;ll get your discount, and if you spread the word far and wide, you&#x2019;ll keep getting discounts.  And not just at that site, at any participating site across the web.  So bombard your friends, we don&#x2019;t mind.  And don&#x2019;t worry, we protect your actual identity.  We are just interested in aggregate patterns, not in who you are personally.  Unless you want to hang out and grab a beer, in which case feel free to reach out.&#xD;
+&#xD;
+And what happens if you don&#x2019;t see the button on the checkout page?  Well, we would not be the least bit upset if you contacted the retailer and let them know that they are foregoing the raw power of your impressive social stature by not working with us.  So thanks in advance!</description>
+    <notes>Compatible with 1.3.x and up.</notes>
+    <authors><author><name>Seth Malaki</name><user>electricjesus</user><email>seth.malaki@gmail.com</email></author><author><name>Ammon Brown</name><user>ammonbrown</user><email>ammonb@gmail.com</email></author></authors>
+    <date>2012-12-23</date>
+    <time>13:58:45</time>
+    <contents><target name="magecommunity"><dir name="Sociaby"><dir name="Socialoffers"><dir name="Block"><dir name="Checkout"><dir name="Cart"><file name="Coupon.php" hash="6387bd69240d81f6bd780e8fd36b1a1f"/></dir></dir><file name="Offers.php" hash="51024e59b725d31391529f3f5c444e31"/></dir><dir name="Helper"><file name="Data.php" hash="2eb103a0c8cac17677487cdebb5289a8"/></dir><dir name="controllers"><file name="IndexController.php" hash="1332ce05baedee407443e8b9de517a03"/></dir><dir name="etc"><file name="adminhtml.xml" hash="03d719dee6d8214b22a731a69ff258b8"/><file name="config.xml" hash="bbde9a382df94695d46480c087a5feed"/><file name="system.xml" hash="b55d4cccbc508c1023802dda4b97bb54"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="socialoffers"><file name="coupon.phtml" hash="010602bae88ab193fb7eb51dba11339f"/><file name="widget.phtml" hash="04bda1587eed19fcce17208f0104fec0"/></dir></dir><dir name="layout"><file name="socialoffers.xml" hash="fc7e2a2df047dac790e30ddca38fe13d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sociaby_Socialoffers.xml" hash="938660962626922335937c9ff9386ea8"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

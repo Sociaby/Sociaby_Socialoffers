@@ -1,7 +1,7 @@
 Sociaby Social Discounts
 =======================
 
-v0.2.2
+v0.2.3
 
 What is it?
 ----------

@@ -35,4 +35,11 @@
   	  </socialoffers>
   	</blocks>    
   </global>
+  <default>
+    <offers>
+        <general>
+            <conversion_tracking>0</conversion_tracking>
+        </general>
+    </offers>
+  </default>
 </config> 

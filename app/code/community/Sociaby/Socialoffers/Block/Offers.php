@@ -19,7 +19,7 @@ class Sociaby_Socialoffers_Block_Offers extends Mage_Core_Block_Template{
 		foreach ($cartItems as $item) {
 		    array_push($sociabyProductsObjectArray['items'], $item->getName());
 		    array_push($sociabyProductsObjectArray['urls'], $item->getProduct()->getProductUrl());
-		    $image = (string) $this->helper('catalog/image')->init($item->getProduct(), 'small_image');
+		    $image = (string) $this->helper('catalog/image')->init($item->getProduct(), 'thumbnail')->resize(150, 150);
 		    array_push($sociabyProductsObjectArray['images'], $image);
 		    array_push($sociabyProductsObjectArray['prices'], round($item->getPrice(),2));
 		}

@@ -40,7 +40,9 @@ casper.then(function() {
     // 9 - is the sociaby offers script tag async script present/ does it exist?
     this.echo("Can we find the sociaby async tag?");
     this.test.assertExists('script[id^="sociaby_"]');
-    // 10 - does the sociaby share button exist? (fails in localhost)
+    // 10 - is the async tag using thumbnail links instead of small image?
+    this.test.assertSelectorHasText('script[id^="sociaby_"]','thumbnail', 'The async tag is using thumbnail images');
+    // 11 - does the sociaby share button exist? (fails in localhost)
     // TODO
 })
 

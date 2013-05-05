@@ -78,8 +78,8 @@ casper
   )
   .then(function() {
     this.echo("Now at " + this.getCurrentUrl());
-    this.debugHTML('script[id^="sociaby_ct_"]');
-    this.test.assertExists('script[id^="sociaby_ct_"]','Can find the tracking code script on');
+    this.echo("By default, tracking code is disabled.");
+    this.test.assertDoesntExist('script[id^="sociaby_ct_"]','Cannot find the tracking code script.');
 });
 
 casper.thenOpen('http://magen.to/', function() {

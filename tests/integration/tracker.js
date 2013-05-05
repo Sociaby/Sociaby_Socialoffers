@@ -88,7 +88,7 @@ casper.thenOpen('http://magen.to/', function() {
 
 
 casper.run(function() {
-    this.test.done(7);
+    this.test.done(8);
     this.test.renderResults(true);
 });
 

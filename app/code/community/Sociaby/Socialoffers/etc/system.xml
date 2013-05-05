@@ -33,6 +33,16 @@
                             <show_in_store>1</show_in_store>
 							<comment>This is your sociaBY unique ID, NOT your username. To obtain one, please login or register on sociaBY.com.</comment>
                           </unique_id>
+                          <conversion_tracking translate="label">
+                            <label>Enable conversion tracking</label>
+                             <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Would you like to enable conversion tracking for all successful orders?</comment>
+                          </conversion_tracking>
 					   </fields>
 					   </general>
 					</groups>
